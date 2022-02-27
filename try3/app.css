@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: #81818125
+}
+
+
+/*******NavBar******/
+
+#main_navbar {
+    background-color: rgb(0, 0, 0)
+}
+
+#photo {
+    /*Logo*/
+    height: 80px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+#navbarNav {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+#navbarNav .navbar-nav {
+    margin: 0 50px;
+    width: 100%;
+    justify-content: end;
+    list-style-type: none;
+    display: flex;
+}
+
+#navbarNav .navbar-nav .nav-item {
+    display: inline;
+    padding-right: 10px;
+}
+
+#healthcare {
+    color: rgb(190, 200, 209)
+}
+
+
+/******Front page*****/
+
+#frntpic {
+    width: 100%;
+    height: 45rem;
+    padding-bottom: 20px;
+}
+
+
+/********Posts******/
+
+#Posts {
+    background-color: #000000;
+    padding: 30px 0px;
+}
+
+#sec2_title {
+    font-weight: 100;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+
+#title {
+    background-color: #858585;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.card-body {
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin: 20px 10px;
+}
+
+.card-body a {
+    color: #0c7f90;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+
+.card-body a:hover {
+    color: #63a6b0;
+    text-decoration: none;
+}
+
+
+/******Sliding images********/
+
+.try {
+    display: flex;
+    height: 40rem;
+}
+
+#carouselExampleControls {
+    margin: 0px 500px
+}
+
+
+/**************Sign up**********/
+
+#text2 h2 {
+    color: #181818;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+#text2 p {
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.8;
+}
+
+#sec1 {
+    padding-top: 50px;
+    background-color: #f1f1f1
+}
+
+#sec1 .cont_img {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#text2 {
+    padding-bottom: 20px;
+}
+
+#sec1 .signup {
+    text-decoration: none;
+    color: white;
+}
+
+
+/***********End bar*********/
+
+#TnC {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#TnC p {
+    color: rgba(219, 214, 214, 0.897);
+}
+
+#TnC .brand {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
