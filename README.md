@@ -6,4 +6,4 @@ Submission from  -Uthamkumar(B21025)
 Topic: Heathcare
 
 While accesing open index.html  for the first page.
-Website is fully responsive
+
